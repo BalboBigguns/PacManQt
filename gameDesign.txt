@@ -1,0 +1,53 @@
+Pac-Man is a 2d, top down camera style maze game.
+The player eats dots in the maze, and must evade ghosts.  If the player eats big dots then the player can eat the ghosts for a short time.
+
+Pac-Man
+----------------
+The player controls Pac-Man, a yellow circle with a mouth that eats dots.
+If Pac-Man collides with a ghost, a life is lost and Pac-Man repawns.
+If Pac-Man recently ate a big dot and collides with a ghost he will not only stay alive but also eat the ghost, earning points.
+If all lives are lost the game is over.  The game begins with 3 lives.
+
+Dots
+----------------
+Dots are placed periodically on the pathways between the maze walls, and when Pac-Man eats all the dots,
+the game levels up, the dots are replaced, and the ghosts and Pac-Man are respawed.
+The dots in the four corners of the maze are big dots.
+When Pac-Man eats a big dot, he can eat ghosts for a short period of time and earn points.
+
+Ghosts
+----------------
+The ghosts are spawned in a ghost pen area.
+The ghosts wander the maze, and when Pac-Man is in sight, they chase him until he is out of sight.
+If a ghost collides with Pac-Man a life is lost and Pac-Man is respawned.
+If Pac-Man eats a big dot the ghosts run away from him until he can no longer eat them.
+If a ghost is eaten by Pac-Man the ghost is momentarily respawned.
+
+Fruits
+----------------
+Fruits appear periodically on the Pac-man spawn point.
+If Pac-Man eats a fruit then points are earned.
+
+Maze
+----------------
+Pac-Man and the ghosts cannot walk through the maze walls.
+If a ghost or Pac-Man walks to the edge of the map, they are wrapped around to the other side.
+
+Main Menu
+----------------
+The game's main menu will feature 6 operations:
+
+New Game
+Resume (by pressing pause)
+Hi Scores
+Map Editor
+Options
+Quit
+
+The game can be controlled via the keyboard, mouse, or joystick.
+The game must have a very responsive interface, contain graphic artwork, and load as fast as possible.
+The controls and interface must be as intuitive as possible.
+
+Heads Up Display
+----------------
+The game's HUD displays the current score, high score, and the number of lives.
